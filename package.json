@@ -1,0 +1,30 @@
+{
+  "name": "instaya-backend",
+  "version": "1.0.0",
+  "description": "Proyecto InstaYa codigo del Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex29Script/instaYA-Backend.git"
+  },
+  "author": "Grupo 2 NRC 22 46  Uninorte Mision TIC 2022",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex29Script/instaYA-Backend/issues"
+  },
+  "homepage": "https://github.com/Alex29Script/instaYA-Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
